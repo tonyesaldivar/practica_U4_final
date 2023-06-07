@@ -1,0 +1,39 @@
+<resources>
+    <string name="txtv_splash">Cargando ....</string>
+    <string name="app_name">PracticaU4_Final</string>
+    <string name="txtv_titulo">Juego de preguntas</string>
+    <string name="txtv_version">Ver. 1.0</string>
+    <string name="txtv_alumno">Antonio Espinoza S.</string>
+    <string name="txtv_instrucciones">Selecciona la respuesta que consideres
+correcta a la siguiente pregunta.</string>
+    <string name="txtv_instrucciones2">Selecciona la respuesta que consideres
+correcta a la siguiente pregunta.</string>
+    <string name="txtv_pregunta1">1 Matemáticas:    5 + 3 x 7 - 2</string>
+    <string name="txtv_pregunta2">2 Inglés - Cúal es la traducción para "Estoy tomando cerveza"</string>
+    <string name="txtv_pregunta3">3 Gramática - Cúal es la palabra correcta:</string>
+    <string name="txtv_pregunta4">4 Informática - Que es ITIL</string>
+    <string name="txtv_pregunta5">5 General - ¿Cúantos Tecnológicos hay en Iztapalapa?</string>
+    <string name="txtv_pregunta6">GRACIAS POR HABER JUGADO</string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="btn_sig1">Siguiente</string>
+    <string name="btn_sig2">Siguiente</string>
+    <string name="btn_sig3">Siguiente</string>
+    <string name="btn_sig4">Siguiente</string>
+    <string name="btn_sig5">Jugar otra vez</string>
+    <string name="btn_fin">Terminar</string>
+    <string name="rbtn_1">  54  </string>
+    <string name="rbtn_2">  24  </string>
+    <string name="rbtn_3">  20  </string>
+    <string name="rbtn_4">  I am drinking bear  </string>
+    <string name="rbtn_5">  I am drinking bird  </string>
+    <string name="rbtn_6">  I am drinking beer  </string>
+    <string name="rbtn_7">  Iztaccihuatl  </string>
+    <string name="rbtn_8">  Ixtaccihuatl  </string>
+    <string name="rbtn_9">  Istaccihuatl  </string>
+    <string name="rbtn_10">  Ingles Technology Infrastructure Low  </string>
+    <string name="rbtn_11">  Information Technical Infrastructure Library  </string>
+    <string name="rbtn_12">  Information Technology Infrastructure Library  </string>
+    <string name="rbtn_13">  1  </string>
+    <string name="rbtn_14">  3  </string>
+    <string name="rbtn_15">  5  </string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="act7"
+        android:text="@string/btn_sig3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="76dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logooficialtecnm" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="86dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoiti3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="342dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/txtv_instrucciones"
+        android:textColor="#050505"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="342dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtv_pregunta4"
+        android:textColor="#050505"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn_10"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn_11"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn_12"
+            android:textSize="14sp" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
